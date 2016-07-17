@@ -13,12 +13,9 @@ sudo apt-get install -y libopenblas-dev
 
 # install python stuffs
 sudo apt-get -y install python-dev python-pip python-setuptools 
-# install virtual environments
-sudo pip install virtualenvwrapper
-
 
 # It is better to install virtualenv and virtualenvwrapper:
-#pip install virtualenv virtualenvwrapper
+#sudo pip install virtualenv virtualenvwrapper
 #Configure virtualenv and virtualenvwrapper:
 #mkdir ~/.virtualenvs
 #export WORKON_HOME=~/.virtualenvs
@@ -27,7 +24,7 @@ sudo pip install virtualenvwrapper
 #Create your Deep Learning environment:
 #mkvirtualenv deeplearning
 
-Setting-up Python 
+# Setting-up other Python packages 
 sudo pip install nose numpy scipy matplotlib cython scikit-learn scikit-image ipython pandas
 # for ipython we need to certificate for notebook and modify iPython profile for the remote access
 
